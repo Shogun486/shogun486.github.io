@@ -42,6 +42,12 @@ ol, ul {
 	list-style: none;
 }
 
+.linkPerl
+{
+	font-style: italic;
+	color:#18bfef;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2593,6 +2599,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+
 		.image img {
 			display: block;
 		}
@@ -2915,7 +2922,8 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
+			font-style:normal;
+		
 		}
 
 		header > h1 + p {
@@ -3606,7 +3614,7 @@ input, select, textarea {
 		transition: transform 1s ease, opacity 1s ease;
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
-		line-height: 4rem;
+		line-height: 1.9rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
@@ -3622,6 +3630,7 @@ input, select, textarea {
 
 		#nav ul.icons li a.icon:hover:before {
 			color: #18bfef;
+		
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3668,6 +3677,7 @@ input, select, textarea {
 		}
 
 		#nav ul.links {
+
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3680,6 +3690,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
+
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3687,11 +3698,17 @@ input, select, textarea {
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+			text-align: center;
+			
+
 		}
 
 			#nav ul.links li {
 				display: block;
 				padding-left: 0;
+				padding-top: 0.3rem;
+
+				
 			}
 
 				#nav ul.links li a {
@@ -3699,15 +3716,17 @@ input, select, textarea {
 					-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					display: block;
+					display:flex;
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						color: #18bfef !important;
+
+						/*background-color: rgba(255, 255, 255, 0.1);*/
 					}
 
 				#nav ul.links li.active {
@@ -3732,6 +3751,8 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin-bottom: 0;
+			padding-top: 1rem;
+			text-align: right;
 		}
 
 		@media screen and (max-width: 980px) {
