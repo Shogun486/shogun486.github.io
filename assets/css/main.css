@@ -2923,7 +2923,19 @@ input, select, textarea {
 
 		header > p {
 			font-style:normal;
-		
+			font-family: "Lato", Helvetica, sans-serif;
+			line-height: 2.0;
+			letter-spacing: 0.03em;
+			margin: 0 0 1rem 0;
+		}
+
+		article > p{
+			font-style:normal;
+			font-family: "Lato", Helvetica, sans-serif;
+			line-height: 2.0;
+			letter-spacing: 0.03em;
+
+
 		}
 
 		header > h1 + p {
