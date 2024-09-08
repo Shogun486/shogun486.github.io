@@ -1,4 +1,4 @@
 ## Personal Website
-Link: [link]
+Visit [personal website]
 
-[link]: https://shogun486.github.io/
+[personal website]: https://shogun486.github.io/
