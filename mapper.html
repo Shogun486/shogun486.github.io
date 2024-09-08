@@ -19,9 +19,9 @@
 					<ul class="links">
 						<li><a style = "font-size: 1.20rem" href="index.html">Face Detector & Age Predictor</a></li>
 						<li><a style = "font-size: 1.20rem" href="pokemon.html">Pokémon Identifier</a></li>
-						<li class="active"><a style = "font-size: 1.20rem; color: rgb(74, 152, 126);" href="gallery.html">3D Art Gallery</a></li>
+						<li><a style = "font-size: 1.20rem" href="gallery.html">3D Art Gallery</a></li>
 						<li><a style = "font-size: 1.20rem" href="civic.html">Civil Advocacy</a></li>
-						<li><a style = "font-size: 1.20rem" href="mapper.html">Custom DNA/mRNA Sequence Mapper</a></li>
+						<li class="active"><a style = "font-size: 1.20rem; color: rgb(199, 23, 143);" href="mapper.html">Custom DNA/mRNA Sequence Mapper</a></li>
 					</ul>
 					<ul class="icons">
 						<li><a target = "_blank" href="https://github.com/Shogun486" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -31,23 +31,25 @@
 					<div id="main">
 							<article class="post featured">
 								<header class="major">
-									<h3 style="color: rgb(74, 152, 126);"><i>3D Experience</i> (Art Institute of Chicago) <br />
-									</h3>
-									<a class="image fit"><img src="images/AIC.png"  alt="" /></a>
-									<a class="image fit"><img src="images/TechStack3.png"  alt="" /></a>
-									<p 	style = "font-size: 1.6rem; color: rgb(74, 152, 126); font-weight: 350;">
-											This website allows a user to search for all artwork pieces available under the
-											<a class="linkPerl" target="_blank" href="https://api.artic.edu/docs/#introduction" >Art Institute of Chicago's API</a>.<br/></br> The distinguishing features of this website are that it's "on-demand" (you decide what you want to see) and 3D (allowing you to walk/approach paintings as if you were at the <i>Institute</i> in-person)!</br></br>  
-											When you approach each artwork, a description box will pop up to give you more info about the piece. </br></br> 
-											Similar to how you'll find a wall of frames
-											at the  <i>Institute</i>, you'll see that I've mimicked this arrangement. Check out my demo and Github below!			 
+									<h3 style="color: rgb(199, 23, 143);">Custom DNA/mRNA Sequence Mapper<br/></h3>
+									<a class="image fit"><img src="images/dna.jpg"  alt="" /></a>
+									<img src="images/perl_logo.png" width="100%" alt="" />
+									<p style = "font-size: 1.6rem; color: rgb(199, 23, 143); font-weight: 350;">
+									<a class="linkPerl" target="_blank" href="https://github.com/Shogun486/Custom-DNA-mRNA-Sequence-Mapper/blob/main/run_minimap.pl" >This</a> Perl script
+									allows biologists to map illumina data (in FASTQ format) against reference genome files (in FASTA format) via the command-line.<br/><br/>
+									The script leverages open-source sequence alignment program <a class="linkPerl" target="_blank" href="https://github.com/lh3/minimap2">Minimap2</a> and automates several FASTA file mappings that would
+									otherwise have to be executed manually and iteratively. <br /><br />Once the script finishes, the user can find each mapping outputted in a SAM (Sequence Alignment Map) file.<br/><br/>
+									The runtime of Minimap2 is heavily machine-dependent, so although automating the task does help, it is independently insufficient for improving runtime. Therefore, the script also 
+									prompts the user to enter in the amount of cores for Minimap2 to leverage.
 									</p>
 								</header>
 								<ul class="actions special">
-                  <li><a style = "font-size: 1.35rem; background-color: rgb(140, 206, 183);" href="https://drive.google.com/file/d/1pjongfAoSrFIB_XtTA_hxK6wNA9FfanO/view" class="scrolly button large" target="_blank"">Demo</a></li>
-									<li><a target="_blank" style = "font-size: 1.35rem; background-color: rgb(140, 206, 183);"href="https://github.com/Shogun486/3D-Art-Institute-of-Chicago-Gallery" class="scrolly button large">Github</a></li>
+									<li><a target = "_blank" style = "font-size: 1.35rem; background-color: rgb(243, 177, 222);" href="https://github.com/Shogun486/Custom-DNA-mRNA-Sequence-Mapper/blob/main/run_minimap.pl" class="button large">VIEW SCRIPT</a></li>
 								</ul>
 							</article>
+					</div>
+			</div>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -58,5 +60,3 @@
 
 	</body>
 </html>
-
-						
